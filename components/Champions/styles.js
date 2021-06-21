@@ -1,4 +1,3 @@
-import { StatusBar } from 'expo-status-bar';
 import { StyleSheet } from 'react-native';
 
 const championsStyles = StyleSheet.create({
@@ -6,7 +5,6 @@ const championsStyles = StyleSheet.create({
         backgroundColor: 'dimgray',
 		alignItems: 'center',
 		overflow: 'scroll',
-		paddingTop: StatusBar.currentHeight,
 	},
 	text: {
 		marginTop: 35,
@@ -22,10 +20,6 @@ const championsStyles = StyleSheet.create({
 		backgroundColor: 'dimgray',
 		paddingBottom: 10,
 	},
-	status: {
-		height: 30,
-		backgroundColor: 'blue'
-	}
 });
 
 export default championsStyles;

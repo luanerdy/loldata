@@ -42,7 +42,7 @@ const Champions = () => {
 
 	return (
 		<SafeAreaView style={championsStyles.container}>
-            <StatusBar backgroundColor='black' style='light' />
+            <StatusBar backgroundColor='dimgray' style='light' />
             <Text style={championsStyles.text}>Escolha um campeão para ver os dados</Text>
 			<FlatList
             contentContainerStyle={{
